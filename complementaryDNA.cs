@@ -3,9 +3,12 @@
 // DNA strand is never empty or there is no DNA at all (again, except for Haskell). 
 
 public class DnaStrand 
+{
+    public static string MakeComplement(string dna)
     {
-        public static string MakeComplement(string dna)
-        {
-            
-        }
+        var original = dna; 
+        original.Replace('A', 'T');
+        
     }
+}
+
