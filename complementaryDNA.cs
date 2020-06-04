@@ -6,9 +6,12 @@ public class DnaStrand
 {
     public static string MakeComplement(string dna)
     {
-        var original = dna; 
-        original.Replace('A', 'T');
         
+        for (int i = 0; i<dna.Length; i++ )
+        {
+        // original[i].Replace('A', 'T').Replace('T', 'A').Replace('G', 'C').Replace('C', 'G');
+        
+        }
     }
 }
 
